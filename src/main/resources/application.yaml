@@ -1,0 +1,15 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test-db
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+logging:
+  level:
+    root: debug
